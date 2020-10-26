@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+flake8 = "*"
+Pipfile = "*"
+
+[dev-packages]
+pytest = "*"
+flake8 = "*"
+coverage = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+Pipfile = "*"
+
+[requires]
+python_version = "3.8"
